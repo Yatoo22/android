@@ -1,0 +1,11 @@
+{
+  "name": "Android Emulator",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "bash setup.sh",
+  "forwardPorts": [8080],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.remote-containers"]
+    }
+  }
+}
